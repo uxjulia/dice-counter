@@ -1,2 +1,4 @@
-_site
 .sass-cache
+.idea/
+Chart.js/
+tether-1.1.1/

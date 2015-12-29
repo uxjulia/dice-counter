@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dice Roll Counter</title>
+    <meta name="description" content="Track and graph die rolls.
+">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://dice.jvlia.co/">
+    <link rel="alternate" type="application/rss+xml" title="Dice Roll Counter" href="http://dice.jvlia.co/feed.xml" />
+</head>
+
+  <body>
+    <header class="site-header">
+    <div class="site-icon">
+        <div class="dice-box">
+            <div class="dice rotate_right">
+                <div class="pip-container clearfix">
+                    <div class="pip pull-right" id="1"></div>
+                </div>
+                <div class="pip-container">
+                    <div class="pip center-block" id="2"></div>
+                </div>
+                <div class="pip-container">
+                    <div class="pip pull-left" id="3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Dice Roll Counter</a>
+
+
+  </div>
+
+</header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="col-md-4" id="input">
+    <div class="panel panel-default" id="numbers">
+        <div class="panel-body center-block">
+            <div class="digit-container">
+                <div class="row form-group center-block">
+                    <button class="digit" id="0">2</button>
+                    <button class="digit" id="1">3</button>
+                    <button class="digit" id="2">4</button>
+                </div>
+                <div class="row form-group center-block">
+                    <button class="digit" id="3">5</button>
+                    <button class="digit" id="4">6</button>
+                    <button class="digit" id="5">7</button>
+                </div>
+                <div class="row form-group center-block">
+                    <button class="digit" id="6">8</button>
+                    <button class="digit" id="7">9</button>
+                    <button class="digit" id="8">10</button>
+                </div>
+                <div class="row form-group center-block">
+                    <button class="digit" id="9">11</button>
+                    <button class="digit" id="10">12</button>
+                    <button class="reset" id="undo">Undo</button>
+                </div>
+                <div class="row form-group center-block reset">
+                    <button class="reset" id="reset">Reset all data</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default" id="history">
+    <div class="panel-heading">
+        Roll History
+    </div>
+    <div class="panel-body" id="last-roll">
+    </div>
+</div>
+</div>
+          <div class="col-md-8">
+    <canvas id="diceChart" width="500" height="400"></canvas>
+</div>
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+
+  <div class="wrapper">
+   <p>made with  <span class="glyphicon glyphicon-heart"></span>  by uxjulia</p>
+  </div>
+
+</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="../assets/tether/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+<script src="../assets/app.js"></script>
+<script src="../assets/Chart.min.js"></script>
+<script src="../assets/Chart.Line.js"></script>
+
+  </body>
+</html>
