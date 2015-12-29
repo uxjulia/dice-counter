@@ -7,6 +7,7 @@
   function logHistory(button) {
     var $el = $(button);
     var val = $el.text();
+    var iden = $el.attr("id");
     var target = $("div#last-roll");
     var idx = function() {
       return $("span.history-text").length;
@@ -28,22 +29,9 @@
       "class": "history-text",
       id: idx
     });
-    //var p = val;
-    addComma();
+    $(p).data("arrayId", {id: iden});
+    console.log("data stored is: " + $(p).data("arrayId"));
     $(p).prependTo(target);
-  }
-
-  function addComma() {
-    var obj = $("span.history-text");
-    var l = obj.length;
-    console.log("length: " + l);
-    if (l > 0) {
-      var lastP = l - 1;
-      console.log("last p = " + lastP);
-      var lastPVal = $(obj[lastP]).val();
-      console.log("value = " + lastPVal);
-      $(obj[lastP]).val(lastPVal + ", ");
-    }
   }
 
   $(document).ready(function() {
@@ -83,6 +71,12 @@
       return current + 1;
     };
 
+    var deleteOne = function(id){
+      var current = lineChart.datasets[0].bars[id].value;
+      lineChart.datasets[0].bars[id].value = current - 1;
+      lineChart.update();
+    };
+
     var logDiceRoll = function(button) {
       var $el = $(button);
       var id = $($el).attr("id");
@@ -102,6 +96,17 @@
       console.log("reset button clicked");
       resetData();
       $("div#last-roll").empty();
+    });
+
+    $("button#undo").on('click', function(){
+      var target = $("span.history-text:first-child");
+      var v = target.data("arrayId");
+      var arrayid = $.map(v, function(idx, el) {
+        return idx;
+      });
+      deleteOne(arrayid);
+      target.remove();
+
     });
 
   });
