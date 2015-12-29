@@ -5,7 +5,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/_includes/history.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/history.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_config.yml" afterPath="$PROJECT_DIR$/app/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_sass/_layout.scss" afterPath="$PROJECT_DIR$/app/_sass/_layout.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/dice-input.html" afterPath="$PROJECT_DIR$/app/_includes/dice-input.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/head.html" afterPath="$PROJECT_DIR$/app/_includes/head.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/header.html" afterPath="$PROJECT_DIR$/app/_includes/header.html" />
@@ -664,7 +663,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451422118138</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="increase site title font">
+      <created>1451422196254</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1451422196254</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -709,7 +714,8 @@
     <MESSAGE value="remove _site from gitignore" />
     <MESSAGE value="add history log" />
     <MESSAGE value="add dice icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dice icon" />
+    <MESSAGE value="increase site title font" />
+    <option name="LAST_COMMIT_MESSAGE" value="increase site title font" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
