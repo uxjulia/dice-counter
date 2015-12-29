@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {% include header.html %}
+{% include header.html %}
 
-    <div class="container">
-      <div class="row">
+<div class="container">
+    <div class="row">
         <div class="col-md-12">
-          {% include dice-input.html %}
-          {% include graph.html %}
+           {{content}}
         </div>
-      </div>
     </div>
+</div>
 
-    {% include footer.html %}
-  {% include javascripts.html %}
+{% include footer.html %}
 
-  </body>
+</body>
 
 </html>
