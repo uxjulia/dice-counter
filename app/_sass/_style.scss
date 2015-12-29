@@ -1,13 +1,49 @@
+// start css for dice logo
+.dice-box {
+  padding: 5px;
+}
+.dice {
+  padding: 6px;
+  height: 50px;
+  width: 50px;
+  background-color: rgba(88,93,97,.8);
+  border-radius: 5px;
+}
+.pip {
+  //margin: 10px;
+  background-color: #fff;
+  height: 7px;
+  width: 7px;
+  border-radius: 50px;
+}
+.pip-container {
+  margin-top: 2px;
+  margin-bottom: 7px;
+}
+.pip#1 {
+  margin-right: 5px;
+}
+
+div.rotate_right {
+  float: left;
+  -ms-transform: rotate(16deg); /* IE 9 */
+  -webkit-transform: rotate(16deg); /* Safari */
+  transform: rotate(16deg);
+}
+// end css for dice logo
 
 button {
-  background-color: #eee;
+  background-color: #B7C1C7;
   border: none;
-  width: 30%;
+  width: 31%;
   height: 40px;
 }
 
 div#input {
   margin-top: 20px;
+}
+div#input button {
+  color: #333;
 }
 
 header {
@@ -16,13 +52,34 @@ header {
 
 .wrapper p {
   text-align: center;
-  font-size: .8em;
+  font-size: .9em;
 }
 
 div.reset {
   margin-top: 50px;
 }
 button#reset {
-  background-color: #FFE1AF;
+  background-color: #9B9B9B;
   width: 95%;
+}
+button#undo {
+  background-color: #C1A0A0;
+}
+
+.panel#history {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.site-icon {
+  margin-right: 20px;
+  float: left;
+  padding: 10px;
+}
+img#icon-svg {
+  width: 50px;
+}
+
+.digit-container {
+  width: 100%;
 }

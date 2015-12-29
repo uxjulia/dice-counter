@@ -7,7 +7,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_config.yml" afterPath="$PROJECT_DIR$/app/_config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_sass/_layout.scss" afterPath="$PROJECT_DIR$/app/_sass/_layout.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_sass/_style.scss" afterPath="$PROJECT_DIR$/app/_sass/_style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/app.js" afterPath="$PROJECT_DIR$/app/assets/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/dice-input.html" afterPath="$PROJECT_DIR$/app/_includes/dice-input.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/head.html" afterPath="$PROJECT_DIR$/app/_includes/head.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/header.html" afterPath="$PROJECT_DIR$/app/_includes/header.html" />
@@ -654,7 +653,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451412365250</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add history log">
+      <created>1451422034617</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1451422034617</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -697,7 +702,8 @@
     <MESSAGE value="add tether js" />
     <MESSAGE value="edits to layout defaults" />
     <MESSAGE value="remove _site from gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove _site from gitignore" />
+    <MESSAGE value="add history log" />
+    <option name="LAST_COMMIT_MESSAGE" value="add history log" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
