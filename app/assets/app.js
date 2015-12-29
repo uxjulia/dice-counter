@@ -1,4 +1,5 @@
 /**
+ * Main graph file
  * Created by Julia on 12/28/15.
  */
 (function($, window, document){
@@ -34,11 +35,20 @@
     };
 
     var ctx = $("#diceChart").get(0).getContext("2d");
-    var myNewChart = new Chart(ctx);
-    var lineChart = new Chart(ctx).Bar(data);
-    Chart.defaults.global.responsive = true;
-    Chart.defaults.global.tooltipTemplate = "Total: <%= value %>";
+    var lineChart = new Chart(ctx).Bar(data, {
+      responsive: true,
+      tooltipTemplate: "Total: <%= value %>"
+    });
 
+    var resetData = function() {
+      console.log("resetting data");
+      var bar = lineChart.datasets[0].bars;
+      console.log(bar);
+      $.each(bar, function(idx,el){
+        el.value = 0;
+      });
+      lineChart.update();
+    };
     var calcTotal = function(id) {
       var current = lineChart.datasets[0].bars[id].value;
       return current + 1;
@@ -51,12 +61,6 @@
       lineChart.datasets[0].bars[id].value = calcTotal(id);
       lineChart.update();
     };
-    var resetData = function() {
-      var bar = lineChart.datasets[0].bars;
-      $.each(bar, function(idx,el){
-        el.value = 0;
-      });
-    };
 
     var numbers = $("button").not(".reset");
 
@@ -68,8 +72,6 @@
       console.log("reset button clicked");
       resetData();
     });
-
-
 
   });
 
