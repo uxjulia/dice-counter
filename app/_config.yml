@@ -1,8 +1,8 @@
 # Site settings
-title: Dice Counter
-email: your-email@domain.com
+title: Dice Roll Counter
+email: ux@jvlia.co
 description: > # this means to ignore newlines until "baseurl:"
- A thing to keep track of dice rolls.
+ Track and graph die rolls.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dice.jvlia.co" # the base hostname & protocol for your site
 
