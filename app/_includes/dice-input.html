@@ -1,29 +1,32 @@
 <div class="col-md-4" id="input">
-    <div class="card" id="numbers">
-        <div class="card-block">
-            <div class="row form-group center-block">
-                <button class="digit" id="0">2</button>
-                <button class="digit" id="1">3</button>
-                <button class="digit" id="2">4</button>
-            </div>
-            <div class="row form-group center-block">
-                <button class="digit" id="3">5</button>
-                <button class="digit" id="4">6</button>
-                <button class="digit" id="5">7</button>
-            </div>
-            <div class="row form-group center-block">
-                <button class="digit" id="6">8</button>
-                <button class="digit" id="7">9</button>
-                <button class="digit" id="8">10</button>
-            </div>
-            <div class="row form-group center-block">
-                <button class="digit" id="9">11</button>
-                <button class="digit" id="10">12</button>
-                <button class="reset" id="undo">Undo</button>
-            </div>
-            <div class="row form-group center-block reset">
-                <button class="reset" id="reset">Reset Chart Data</button>
+    <div class="panel panel-default" id="numbers">
+        <div class="panel-body center-block">
+            <div class="digit-container">
+                <div class="row form-group center-block">
+                    <button class="digit" id="0">2</button>
+                    <button class="digit" id="1">3</button>
+                    <button class="digit" id="2">4</button>
+                </div>
+                <div class="row form-group center-block">
+                    <button class="digit" id="3">5</button>
+                    <button class="digit" id="4">6</button>
+                    <button class="digit" id="5">7</button>
+                </div>
+                <div class="row form-group center-block">
+                    <button class="digit" id="6">8</button>
+                    <button class="digit" id="7">9</button>
+                    <button class="digit" id="8">10</button>
+                </div>
+                <div class="row form-group center-block">
+                    <button class="digit" id="9">11</button>
+                    <button class="digit" id="10">12</button>
+                    <button class="reset" id="undo">Undo</button>
+                </div>
+                <div class="row form-group center-block reset">
+                    <button class="reset" id="reset">Reset all data</button>
+                </div>
             </div>
         </div>
     </div>
+    {% include history.html %}
 </div>

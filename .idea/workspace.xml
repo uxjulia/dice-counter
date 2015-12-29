@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ccbf1f9-15dc-4086-89b1-5e4a971a5521" name="Default" comment="remove _site from gitignore">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/_includes/history.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/history.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_config.yml" afterPath="$PROJECT_DIR$/app/_config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/dice-input.html" afterPath="$PROJECT_DIR$/app/_includes/dice-input.html" />
@@ -669,7 +668,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451422196254</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add view for history box">
+      <created>1451422284689</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1451422284689</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -715,7 +720,8 @@
     <MESSAGE value="add history log" />
     <MESSAGE value="add dice icon" />
     <MESSAGE value="increase site title font" />
-    <option name="LAST_COMMIT_MESSAGE" value="increase site title font" />
+    <MESSAGE value="add view for history box" />
+    <option name="LAST_COMMIT_MESSAGE" value="add view for history box" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
