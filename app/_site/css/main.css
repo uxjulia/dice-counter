@@ -387,6 +387,9 @@ img#icon-svg {
 span.glyphicon-heart {
   color: #D54343; }
 
+span#total-txt {
+  font-size: 12.6px; }
+
 /**
  * Syntax highlighting styles
  */
