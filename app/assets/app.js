@@ -1,23 +1,52 @@
 /**
  * Main graph file
- * Created by Julia on 12/28/15.
+ * Created by Julia Nguyen on 12/28/15.
  */
 (function($, window, document){
   'use strict';
-  $(document).ready(function() {
-    var arrayObj = {
-      2: 0,
-      3: 0,
-      4: 0,
-      5: 0,
-      6: 0,
-      7: 0,
-      8: 0,
-      9: 0,
-      10: 0,
-      11: 0,
-      12: 0
+  function logHistory(button) {
+    var $el = $(button);
+    var val = $el.text();
+    var target = $("div#last-roll");
+    var idx = function() {
+      return $("span.history-text").length;
     };
+    var setValue = function(val){
+      var n;
+      var obj = $("span.history-text");
+      var l = obj.length;
+      console.log("length: " + l);
+      if (l > 0) {
+        n = val + ", ";
+      } else {
+        n = val;
+      }
+      return n;
+    };
+    var p = $("<span/>",{
+      text: setValue(val),
+      "class": "history-text",
+      id: idx
+    });
+    //var p = val;
+    addComma();
+    $(p).prependTo(target);
+  }
+
+  function addComma() {
+    var obj = $("span.history-text");
+    var l = obj.length;
+    console.log("length: " + l);
+    if (l > 0) {
+      var lastP = l - 1;
+      console.log("last p = " + lastP);
+      var lastPVal = $(obj[lastP]).val();
+      console.log("value = " + lastPVal);
+      $(obj[lastP]).val(lastPVal + ", ");
+    }
+  }
+
+  $(document).ready(function() {
     var data = {
       labels: ["2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
       datasets: [
@@ -66,11 +95,13 @@
 
     $(numbers).on('click', function () {
       logDiceRoll(this);
+      logHistory(this);
     });
 
     $("button#reset").on('click', function () {
       console.log("reset button clicked");
       resetData();
+      $("div#last-roll").empty();
     });
 
   });
