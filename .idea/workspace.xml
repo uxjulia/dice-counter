@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0ccbf1f9-15dc-4086-89b1-5e4a971a5521" name="Default" comment="modifications to layout">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_sass/_style.scss" afterPath="$PROJECT_DIR$/app/_sass/_style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/assets/js/app.js" afterPath="$PROJECT_DIR$/app/_site/assets/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/js/app.js" afterPath="$PROJECT_DIR$/app/assets/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/dice-input.html" afterPath="$PROJECT_DIR$/app/_includes/dice-input.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/feed.xml" afterPath="$PROJECT_DIR$/app/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/graph.html" afterPath="$PROJECT_DIR$/app/_includes/graph.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/history.html" afterPath="$PROJECT_DIR$/app/_includes/history.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_layouts/home.html" afterPath="$PROJECT_DIR$/app/_layouts/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/index.html" afterPath="$PROJECT_DIR$/app/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/javascripts.html" afterPath="$PROJECT_DIR$/app/_includes/javascripts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/css/main.css" afterPath="$PROJECT_DIR$/app/_site/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dice.iws" />
@@ -788,7 +778,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451428140257</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="modifications to layout">
+      <created>1451456475868</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1451456475868</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -861,7 +857,8 @@
     <MESSAGE value="changes to font and footer" />
     <MESSAGE value="added undo functionality" />
     <MESSAGE value="layout and project source file modifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="layout and project source file modifications" />
+    <MESSAGE value="modifications to layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="modifications to layout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
