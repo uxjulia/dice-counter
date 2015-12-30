@@ -3,25 +3,25 @@
   padding: 5px;
 }
 .dice {
-  padding: 6px;
-  height: 50px;
-  width: 50px;
+  padding: 4px;
+  height: 40px;
+  width: 40px;
   background-color: rgba(88,93,97,.8);
   border-radius: 5px;
 }
 .pip {
   //margin: 10px;
   background-color: #fff;
-  height: 7px;
-  width: 7px;
+  height: 5px;
+  width: 5px;
   border-radius: 50px;
 }
 .pip-container {
   margin-top: 2px;
-  margin-bottom: 7px;
+  margin-bottom: 5px;
 }
 .pip#1 {
-  margin-right: 5px;
+  margin-right: 4px;
 }
 
 div.rotate_right {
@@ -55,7 +55,7 @@ header {
   margin-bottom: 20px;
 }
 
-.wrapper p {
+.wrapper p#footer-text {
   text-align: center;
   font-size: .9em;
 }
