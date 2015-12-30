@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ccbf1f9-15dc-4086-89b1-5e4a971a5521" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/_includes/timer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_sass/_style.scss" afterPath="$PROJECT_DIR$/app/_sass/_style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/assets/js/app.js" afterPath="$PROJECT_DIR$/app/_site/assets/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/js/app.js" afterPath="$PROJECT_DIR$/app/assets/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/dice-input.html" afterPath="$PROJECT_DIR$/app/_includes/dice-input.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/feed.xml" afterPath="$PROJECT_DIR$/app/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/head.html" afterPath="$PROJECT_DIR$/app/_includes/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_layouts/home.html" afterPath="$PROJECT_DIR$/app/_layouts/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/index.html" afterPath="$PROJECT_DIR$/app/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/about/index.html" afterPath="$PROJECT_DIR$/app/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/javascripts.html" afterPath="$PROJECT_DIR$/app/_includes/javascripts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/css/main.css" afterPath="$PROJECT_DIR$/app/_site/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0ccbf1f9-15dc-4086-89b1-5e4a971a5521" name="Default" comment="" />
     <ignored path="dice.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
