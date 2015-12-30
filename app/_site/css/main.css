@@ -340,11 +340,17 @@ div.rotate_right {
   /* Safari */
   transform: rotate(16deg); }
 
+canvas#diceChart {
+  max-height: 600px; }
+
 button {
   background-color: #B7C1C7;
   border: none;
   width: 31%;
-  height: 40px; }
+  height: 40px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto; }
 
 div#input {
   margin-top: 20px; }
@@ -369,9 +375,10 @@ button#reset {
 button#undo {
   background-color: #C1A0A0; }
 
-.panel#history {
-  max-height: 200px;
-  overflow-y: auto; }
+div#last-roll {
+  max-height: 80px;
+  overflow-y: auto;
+  margin-bottom: 10px; }
 
 .site-icon {
   margin-right: 20px;
@@ -381,14 +388,32 @@ button#undo {
 img#icon-svg {
   width: 50px; }
 
-.digit-container {
-  width: 100%; }
+.digit-box {
+  margin-top: 0; }
 
 span.glyphicon-heart {
   color: #D54343; }
 
 span#total-txt {
   font-size: 12.6px; }
+
+span.history-text {
+  float: left;
+  padding-left: 5px; }
+
+div.last-roll {
+  font-size: 15.4px; }
+
+div#rolls :first-child {
+  color: #D54343; }
+
+span.last-roll-title {
+  padding-right: 10px; }
+
+div#lr-text {
+  padding-right: 5px;
+  float: left;
+  display: inline-block; }
 
 /**
  * Syntax highlighting styles

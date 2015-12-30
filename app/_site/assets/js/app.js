@@ -2,13 +2,14 @@
  * Main app js
  * Created by uxjulia on 12/28/15.
  */
+
 (function($, window, document){
   'use strict';
   function logHistory(button) {
     var $el = $(button);
     var val = $el.text();
     var iden = $el.attr("id");
-    var target = $("div#last-roll");
+    var target = $("div#rolls");
     var idx = function() {
       return $("span.history-text").length;
     };
@@ -16,10 +17,10 @@
       var n;
       var obj = $("span.history-text");
       var l = obj.length;
-      if (l > 0) {
-        n = val + ", ";
-      } else {
+      if (l == 0) {
         n = val;
+      } else {
+        n = val + ", ";
       }
       return n;
     };
@@ -61,7 +62,7 @@
         el.value = 0;
       });
       lineChart.update();
-      $("div#last-roll").empty();
+      $("span.history-text").remove();
       $("span#total-txt").empty();
     };
     var calcTotal = function(id) {
@@ -97,7 +98,6 @@
 
     $("button#reset").on('click', function () {
       resetData();
-
     });
 
     $("button#undo").on('click', function(){
@@ -109,7 +109,5 @@
       deleteOne(arrayId);
       target.remove();
     });
-
   });
-
 })(jQuery);
