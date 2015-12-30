@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ccbf1f9-15dc-4086-89b1-5e4a971a5521" name="Default" comment="modifications to layout">
+    <list default="true" id="0ccbf1f9-15dc-4086-89b1-5e4a971a5521" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_sass/_style.scss" afterPath="$PROJECT_DIR$/app/_sass/_style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/feed.xml" afterPath="$PROJECT_DIR$/app/_site/feed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/css/main.css" afterPath="$PROJECT_DIR$/app/_site/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dice.iws" />
@@ -49,8 +51,8 @@
           <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.29966703">
-                  <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.59933406">
+                  <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -116,8 +118,8 @@
           <file leaf-file-name="_style.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/_sass/_style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.7093822">
-                  <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+                <state vertical-scroll-proportion="0.9176201">
+                  <caret line="123" column="11" selection-start-line="123" selection-start-column="11" selection-end-line="123" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -253,8 +255,8 @@
         <option value="$PROJECT_DIR$/app/_includes/history.html" />
         <option value="$PROJECT_DIR$/app/_layouts/home.html" />
         <option value="$PROJECT_DIR$/app/_includes/dice-input.html" />
-        <option value="$PROJECT_DIR$/app/_sass/_style.scss" />
         <option value="$PROJECT_DIR$/app/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/app/_sass/_style.scss" />
       </list>
     </option>
   </component>
@@ -784,7 +786,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451456475868</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="highlight last number">
+      <created>1451456496239</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1451456496239</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -858,7 +866,8 @@
     <MESSAGE value="added undo functionality" />
     <MESSAGE value="layout and project source file modifications" />
     <MESSAGE value="modifications to layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="modifications to layout" />
+    <MESSAGE value="highlight last number" />
+    <option name="LAST_COMMIT_MESSAGE" value="highlight last number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1078,14 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/_includes/history.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/_sass/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-114.666664">
@@ -1126,14 +1127,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/_sass/_style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7093822">
-          <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/_layouts/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.333333">
@@ -1142,10 +1135,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/_includes/history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_sass/_style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9176201">
+          <caret line="123" column="11" selection-start-line="123" selection-start-column="11" selection-end-line="123" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29966703">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.59933406">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
           <folding />
         </state>
       </provider>

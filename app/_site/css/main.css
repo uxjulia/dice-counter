@@ -415,6 +415,9 @@ div#lr-text {
   float: left;
   display: inline-block; }
 
+div#numbers .form-group {
+  padding-left: 10px; }
+
 /**
  * Syntax highlighting styles
  */
