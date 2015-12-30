@@ -344,15 +344,11 @@ canvas#diceChart {
   max-height: 600px; }
 
 button {
-  width: 31%;
-  /*margin-left: auto;
-  margin-right: auto;*/ }
+  width: 31%; }
 
 div#input {
   margin-top: 10px; }
 
-/*div#input button {
- /*color: #333;*/
 header {
   margin-bottom: 20px; }
 
@@ -361,20 +357,19 @@ header {
   font-size: .9em; }
 
 div.reset {
-  margin-top: 50px; }
+  margin-top: 30px; }
 
 button#reset {
   background-color: #eeeeee;
   width: 100%; }
 
 button#undo {
-  background-color: #C1A0A0;
-  opacity: .8; }
+  background-color: rgba(193, 160, 160, 0.8); }
 
-div#last-roll {
-  max-height: 80px;
+div#rolls {
+  max-height: 70px;
   overflow-y: auto;
-  margin-bottom: 10px; }
+  margin-bottom: 1px; }
 
 .site-icon {
   margin-right: 20px;
