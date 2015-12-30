@@ -109,6 +109,7 @@
       });
       deleteOne(arrayId);
       target.remove();
+      setTotalRolls();
     });
   });
 })(jQuery);
