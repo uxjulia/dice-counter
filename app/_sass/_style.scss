@@ -34,8 +34,8 @@ canvas#diceChart {
   max-height: 600px;
 }
 button {
-  background-color: #B7C1C7;
-  border: none;
+  /*background-color: #B7C1C7;
+  //border: none;*/
   width: 31%;
   height: 40px;
   padding: 0;
@@ -47,7 +47,7 @@ div#input {
   margin-top: 20px;
 }
 div#input button {
-  color: #333;
+ /*color: #333;*/
 }
 
 header {
@@ -63,7 +63,7 @@ div.reset {
   margin-top: 50px;
 }
 button#reset {
-  background-color: #9B9B9B;
+  background-color: #eeeeee;
   width: 95%;
 }
 button#undo {

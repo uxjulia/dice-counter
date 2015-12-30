@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ccbf1f9-15dc-4086-89b1-5e4a971a5521" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/_includes/timer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_sass/_style.scss" afterPath="$PROJECT_DIR$/app/_sass/_style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/assets/js/app.js" afterPath="$PROJECT_DIR$/app/_site/assets/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/js/app.js" afterPath="$PROJECT_DIR$/app/assets/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/dice-input.html" afterPath="$PROJECT_DIR$/app/_includes/dice-input.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/feed.xml" afterPath="$PROJECT_DIR$/app/_site/feed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/head.html" afterPath="$PROJECT_DIR$/app/_includes/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_layouts/home.html" afterPath="$PROJECT_DIR$/app/_layouts/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/index.html" afterPath="$PROJECT_DIR$/app/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/about/index.html" afterPath="$PROJECT_DIR$/app/_site/about/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/javascripts.html" afterPath="$PROJECT_DIR$/app/_includes/javascripts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/css/main.css" afterPath="$PROJECT_DIR$/app/_site/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dice.iws" />
@@ -39,18 +50,38 @@
           <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/_layouts/home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-11.333333">
-                  <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+                <state vertical-scroll-proportion="-5.3333335">
+                  <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+                <state vertical-scroll-proportion="0.17980023">
+                  <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="dice-input.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/_includes/dice-input.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-8.0">
+                  <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="timer.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/_includes/timer.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-0.0">
+                  <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -82,28 +113,18 @@
           <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/_includes/head.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-7.3333335">
-                  <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+                <state vertical-scroll-proportion="-11.333333">
+                  <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/_includes/header.html">
+          <file leaf-file-name="javascripts.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/_includes/javascripts.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.49427918">
-                  <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="graph.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/_includes/graph.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.3333334">
-                  <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+                <state vertical-scroll-proportion="-6.6666665">
+                  <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
                   <folding />
                 </state>
               </provider>
@@ -116,8 +137,8 @@
           <file leaf-file-name="_style.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/_sass/_style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6086956">
-                  <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.36245573">
+                  <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -160,8 +181,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Html5" />
         <option value="JavaScript File" />
+        <option value="Html5" />
       </list>
     </option>
   </component>
@@ -184,17 +205,19 @@
         <option value="$PROJECT_DIR$/app/assets/app.js" />
         <option value="$PROJECT_DIR$/app/.gitignore" />
         <option value="$PROJECT_DIR$/app/css/main.scss" />
-        <option value="$PROJECT_DIR$/app/_includes/head.html" />
         <option value="$PROJECT_DIR$/jquery.hotkeys/keydown.js" />
-        <option value="$PROJECT_DIR$/app/_includes/javascripts.html" />
         <option value="$PROJECT_DIR$/app/_includes/graph.html" />
         <option value="$PROJECT_DIR$/app/_includes/history.html" />
-        <option value="$PROJECT_DIR$/app/_layouts/home.html" />
-        <option value="$PROJECT_DIR$/app/_includes/dice-input.html" />
-        <option value="$PROJECT_DIR$/app/assets/js/app.js" />
         <option value="$PROJECT_DIR$/app/_includes/header.html" />
         <option value="$PROJECT_DIR$/app/_includes/footer.html" />
+        <option value="$PROJECT_DIR$/app/assets/js/timer.html" />
+        <option value="$PROJECT_DIR$/app/_includes/timer.html" />
+        <option value="$PROJECT_DIR$/app/_layouts/home.html" />
+        <option value="$PROJECT_DIR$/app/_includes/head.html" />
+        <option value="$PROJECT_DIR$/app/_includes/javascripts.html" />
         <option value="$PROJECT_DIR$/app/_sass/_style.scss" />
+        <option value="$PROJECT_DIR$/app/_includes/dice-input.html" />
+        <option value="$PROJECT_DIR$/app/assets/js/app.js" />
       </list>
     </option>
   </component>
@@ -589,7 +612,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="com.intellij.ide.scratch.NewScratchFileAction" value="JavaScript" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="footer&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_includes/footer.html&#10;dice&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_includes/dice-input.html&#10;d&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_includes/dice-input.html&#10;layou&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_sass/_layout.scss&#10;base&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_sass/_base.scss&#10;graph&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_includes/graph.html&#10;head&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_includes/head.html&#10;javascripts&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_includes/javascripts.html&#10;app.&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/assets/js/app.js&#10;bout&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/about.md&#10;about&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/about.md&#10;style&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_sass/_style.scss&#10;default&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_layouts/default.html" />
+    <property name="SearchEverywhereHistoryKey" value="dic&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_includes/dice-input.html&#10;java&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_includes/javascripts.html&#10;raph&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_includes/graph.html&#10;head&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_includes/head.html&#10;jav&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_includes/javascripts.html&#10;footer&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_includes/footer.html&#10;dice&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_includes/dice-input.html&#10;d&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_includes/dice-input.html&#10;layou&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_sass/_layout.scss&#10;base&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_sass/_base.scss&#10;graph&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_includes/graph.html&#10;javascripts&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_includes/javascripts.html&#10;app.&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/assets/js/app.js&#10;bout&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/about.md&#10;about&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/about.md&#10;style&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_sass/_style.scss&#10;default&#9;FILE&#9;file:///Users/Home/Dropbox/repos/dice/app/_layouts/default.html" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
@@ -597,6 +620,7 @@
       <recent name="$PROJECT_DIR$/app/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/_includes" />
       <recent name="$PROJECT_DIR$/app/assets" />
       <recent name="$PROJECT_DIR$/app/assets/tether/js" />
     </key>
@@ -742,7 +766,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451457469338</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="minor edit to dice padding">
+      <created>1451457685777</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1451457685777</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -819,7 +849,8 @@
     <MESSAGE value="highlight last number" />
     <MESSAGE value="fixed padding on buttons" />
     <MESSAGE value="removed link from header" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed link from header" />
+    <MESSAGE value="minor edit to dice padding" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor edit to dice padding" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -936,14 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jquery.hotkeys/jquery-1.4.2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.43951166">
@@ -991,38 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3333335">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_includes/graph.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3333334">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.333333">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.0">
@@ -1063,22 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/_includes/javascripts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.123569794">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_includes/dice-input.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.020594966">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/_includes/history.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1853547">
@@ -1095,18 +1070,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/_includes/graph.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04118993">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49427918">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.061784897">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/js/jquery.countdown.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.019977802">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_layouts/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_includes/timer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.333333">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_includes/dice-input.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/_sass/_style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6086956">
-          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.36245573">
+          <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_includes/javascripts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6666665">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17980023">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
           <folding />
         </state>
       </provider>
