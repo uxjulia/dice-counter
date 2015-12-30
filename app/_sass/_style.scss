@@ -34,21 +34,17 @@ canvas#diceChart {
   max-height: 600px;
 }
 button {
-  /*background-color: #B7C1C7;
-  //border: none;*/
   width: 31%;
-  height: 40px;
-  padding: 0;
-  margin-left: auto;
-  margin-right: auto;
+  /*margin-left: auto;
+  margin-right: auto;*/
 }
 
 div#input {
-  margin-top: 20px;
+  margin-top: 10px;
 }
-div#input button {
+/*div#input button {
  /*color: #333;*/
-}
+
 
 header {
   margin-bottom: 20px;
@@ -64,10 +60,11 @@ div.reset {
 }
 button#reset {
   background-color: #eeeeee;
-  width: 95%;
+  width: 100%;
 }
 button#undo {
   background-color: #C1A0A0;
+  opacity: .8;
 }
 
 div#last-roll {
