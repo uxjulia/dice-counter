@@ -193,7 +193,7 @@
 
     $("button#settingsBtn").on('click',function() {
       var settingsBtnSpan = $("span#settingsText");
-      if (settingsBtnSpan.html() == "Show Settings") {
+      if (settingsBtnSpan.html() == "Settings") {
         settingsBtnSpan.html("Hide Settings");
       } else {
         settingsBtnSpan.html("Show Settings");
