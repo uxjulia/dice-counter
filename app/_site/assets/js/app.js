@@ -33,6 +33,17 @@
     $(p).prependTo(target);
   }
 
+  function displayUsers(n){
+    var i;
+    for (i=0; i < n; i++) {
+      var span = $("<span/>", {
+        "class": "glyphicon glyphicon-user"
+      });
+      var target = $("div.user-icons");
+      $(span).appendTo(target)
+    }
+  }
+
   $(document).ready(function() {
     $.material.init();
     var data = {
@@ -110,5 +121,13 @@
       deleteOne(arrayId);
       target.remove();
     });
+
+    $("select#users").on('change', function() {
+      var target = $("div.user-icons");
+      $(target).empty();
+      var n = $(this).val();
+      displayUsers(n);
+    });
+
   });
 })(jQuery);

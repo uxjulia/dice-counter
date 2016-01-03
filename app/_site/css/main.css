@@ -344,7 +344,8 @@ canvas#diceChart {
   max-height: 600px; }
 
 button {
-  width: 31%; }
+  width: 31%;
+  min-height: 50px; }
 
 div#input {
   margin-top: 10px; }
@@ -382,8 +383,16 @@ img#icon-svg {
 .digit-box {
   margin-top: 0; }
 
-span.glyphicon {
+span.glyphicon-heart {
   color: #D54343; }
+
+span.glyphicon-user {
+  color: #e3e3e3;
+  margin-right: 5px; }
+
+span.glyphicon-user.turn {
+  color: #72a6ca;
+  margin-right: 5px; }
 
 span#total-txt {
   font-size: 12.6px; }
