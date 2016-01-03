@@ -1,19 +1,25 @@
+
+
 <div class="panel panel-default">
-    <div class="panel-body">
-        <div class="form-group">
-            <label class="control-label" for="users">Number of Players:</label>
-            <select class="form-control" id="users">
-                <option>Select Number of Players</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-            </select>
-        </div>
-        <div class="user-icons">
-            <!--<span class="glyphicon glyphicon-user"></span>-->
-            <!--<span class="glyphicon glyphicon-user"></span>-->
+        <button id="settingsBtn" class="btn btn-sm pull-right" type="button" data-toggle="collapse" data-target="#collapsePanel" aria-expanded="false" aria-controls="collapseExample">
+            <span id="settingsText">Show Settings</span> <span class="glyphicon glyphicon-cog"></span>
+        </button>
+    <div class="panel-body" id="settingsPanel">
+        <div class="collapse" id="collapsePanel">
+            <div class="form-group">
+                <label class="control-label" for="users">Number of Players:</label>
+                <select class="form-control" id="users">
+                    <option>Select Number of Players</option>
+                    <option value="0">None</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+            </div>
+            <div class="form-group" id="playerNameInputs">
+            </div>
         </div>
     </div>
 </div>
