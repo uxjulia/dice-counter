@@ -120,6 +120,7 @@
       });
       deleteOne(arrayId);
       target.remove();
+      setTotalRolls();
     });
 
     $("select#users").on('change', function() {
