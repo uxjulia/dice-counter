@@ -59,7 +59,7 @@
       for (i = 0; i < n; i++) {
         var ix = i + 1;
         var input = $("<input/>", {
-          "class": "form-control",
+          "class": "input-sm form-control",
           id: ix
           //placeholder: "Player " + ix + "'s Name"
         });
@@ -103,22 +103,28 @@
   }
 
   function nextUp(x) {
-    var label = $("label#nextUp");
-    if (x == undefined) {
-      x = "1";
+    if ($("span.glyphicon-user").length != "0"){
+      var label = $("label#nextUp");
+      if (x == undefined || null) {
+        x = "1";
+      }
+      if (x == "0") {
+        $("div#nextUpContainer").attr("style", "display:none");
+        return;
+      }
+      var inputVal = $("#playerNameInputs").find("input#" + x).val();
+      var name;
+      if ((inputVal == "" || undefined || null)) {
+        name = "Player " + x;
+      } else {
+        name = inputVal;
+      }
+      console.log("name is: " + name);
+      $(label)
+        .parent().attr("style", "display:block")
+        .end()
+        .text("Next up: " + name);
     }
-    if ( x == "0" ) {
-      $("div#nextUpContainer").attr("style","display:none");
-      return;
-    }
-    var name = $("#playerNameInputs").find("input#" + x).val();
-    if (name == "") {
-      name = "Player " + x;
-    }
-    $(label)
-      .parent().attr("style", "display:block")
-      .end()
-      .text("Next up: " + name);
   }
 
   function setUser(elem) {
@@ -196,14 +202,14 @@
       if (settingsBtnSpan.html() == "Settings") {
         settingsBtnSpan.html("Hide Settings");
       } else {
-        settingsBtnSpan.html("Show Settings");
+        settingsBtnSpan.html("Settings");
 
       }
     });
     $("button#reset").on('click', function () {
       resetData();
       setUser($("span.glyphicon-user:first-child"));
-      nextUp(1);
+      nextUp("1");
     });
 
     $(".user-icons").on('click','span.glyphicon-user', function(){
@@ -226,6 +232,9 @@
       var target = $("div.user-icons");
       $(target).empty();
       var n = $(this).val();
+      if (n=="0"){
+        $("div#nextUpContainer").attr("style", "display:none");
+      }
       displayUserInputs(n);
       displayUsers(n);
       highlightUser();
