@@ -102,7 +102,7 @@
     }
   }
 
-  function nextUp(x, name) {
+  function nextUp(x) {
     var label = $("label#nextUp");
     if (x == undefined) {
       x = "1";
@@ -111,7 +111,8 @@
       $("div#nextUpContainer").attr("style","display:none");
       return;
     }
-    if (name == null) {
+    var name = $("#playerNameInputs").find("input#" + x).val();
+    if (name == "") {
       name = "Player " + x;
     }
     $(label)
