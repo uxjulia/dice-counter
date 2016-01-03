@@ -1,5 +1,5 @@
 # Site settings
-title: Dice Roll Counter
+title: Roll Counter
 email: ux@jvlia.co
 description: > # this means to ignore newlines until "baseurl:"
  Track and graph die rolls.

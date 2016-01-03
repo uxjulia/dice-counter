@@ -240,5 +240,26 @@
       highlightUser();
     });
 
+    // TODO: create selection of timer length and display timer in minutes.
+    // TODO: change div color to red when time is up.
+    var startTimer = function(){
+      setInterval(timer, 1000);
+    };
+    var selection = 2;
+    var newTimer = selection * 1000;
+
+    function timer() {
+      if (newTimer == 0){
+      } else {
+        var d = newTimer - 1;
+        $(".timer").html(d);
+        newTimer --;
+      }
+    }
+
+    //startTimer();
+
+
+
   });
 })(jQuery);
