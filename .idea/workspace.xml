@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ccbf1f9-15dc-4086-89b1-5e4a971a5521" name="Default" comment="add function for timer">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/js/timer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_config.yml" afterPath="$PROJECT_DIR$/app/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_sass/_style.scss" afterPath="$PROJECT_DIR$/app/_sass/_style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/assets/js/app.js" afterPath="$PROJECT_DIR$/app/_site/assets/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/js/app.js" afterPath="$PROJECT_DIR$/app/assets/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/dice-input.html" afterPath="$PROJECT_DIR$/app/_includes/dice-input.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/feed.xml" afterPath="$PROJECT_DIR$/app/_site/feed.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/index.html" afterPath="$PROJECT_DIR$/app/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/about/index.html" afterPath="$PROJECT_DIR$/app/_site/about/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/css/main.css" afterPath="$PROJECT_DIR$/app/_site/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/settings.html" afterPath="$PROJECT_DIR$/app/_includes/settings.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dice.iws" />
@@ -30,14 +29,14 @@
     <favorites_list name="dice" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.51964283">
+    <splitter split-orientation="horizontal" split-proportion="0.61845237">
       <split-first>
         <leaf>
-          <file leaf-file-name="settings.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="settings.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/_includes/settings.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-14.666667">
-                  <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+                <state vertical-scroll-proportion="0.20594966">
+                  <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
                   <folding />
                 </state>
               </provider>
@@ -65,10 +64,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="dice-input.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="dice-input.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/_includes/dice-input.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.63844395">
+                <state vertical-scroll-proportion="-20.666666">
                   <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
                   <folding />
                 </state>
@@ -104,8 +103,8 @@
           <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.48057714">
-                  <caret line="239" column="22" selection-start-line="239" selection-start-column="22" selection-end-line="239" selection-end-column="22" />
+                <state vertical-scroll-proportion="0.6403996">
+                  <caret line="261" column="7" selection-start-line="261" selection-start-column="7" selection-end-line="261" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -114,8 +113,8 @@
           <file leaf-file-name="_style.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/_sass/_style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-12.37037">
-                  <caret line="110" column="24" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
+                <state vertical-scroll-proportion="-28.37037">
+                  <caret line="161" column="1" selection-start-line="161" selection-start-column="1" selection-end-line="161" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -203,11 +202,11 @@
         <option value="$PROJECT_DIR$/app/_includes/history.html" />
         <option value="$PROJECT_DIR$/app/_includes/user.html" />
         <option value="$PROJECT_DIR$/app/_includes/head.html" />
-        <option value="$PROJECT_DIR$/app/_includes/settings.html" />
-        <option value="$PROJECT_DIR$/app/_sass/_style.scss" />
         <option value="$PROJECT_DIR$/app/_config.yml" />
         <option value="$PROJECT_DIR$/app/assets/js/timer.js" />
         <option value="$PROJECT_DIR$/app/_includes/dice-input.html" />
+        <option value="$PROJECT_DIR$/app/_sass/_style.scss" />
+        <option value="$PROJECT_DIR$/app/_includes/settings.html" />
         <option value="$PROJECT_DIR$/app/assets/js/app.js" />
       </list>
     </option>
@@ -694,10 +693,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="999" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13928571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13928571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1088,14 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/_sass/_style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.37037">
-          <caret line="110" column="24" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/_includes/history.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.3333335">
@@ -1157,14 +1148,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/_includes/settings.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.666667">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/js/timer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1185,16 +1168,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/_includes/dice-input.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63844395">
+        <state vertical-scroll-proportion="-20.666666">
           <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_sass/_style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.37037">
+          <caret line="161" column="1" selection-start-line="161" selection-start-column="1" selection-end-line="161" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_includes/settings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20594966">
+          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48057714">
-          <caret line="239" column="22" selection-start-line="239" selection-start-column="22" selection-end-line="239" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.6403996">
+          <caret line="261" column="7" selection-start-line="261" selection-start-column="7" selection-end-line="261" selection-end-column="7" />
           <folding />
         </state>
       </provider>

@@ -1,10 +1,19 @@
 <button id="settingsBtn" class="btn btn-sm pull-right" type="button" data-toggle="collapse" data-target="#collapsePanel" aria-expanded="false" aria-controls="collapseExample">
     <span id="settingsText">Settings</span> <span class="glyphicon glyphicon-cog"></span>
 </button>
-<div class="panel panel-default">
+<div class="panel panel-default" id="settings">
     <div class="panel-body" id="settingsPanel">
         <div class="collapse" id="collapsePanel">
-            <div class="form-group">
+            <div class="form-group" id="timerOptions">
+                <label class="control-label" for="timerTrue">Include Timer?</label>
+                <div class="checkbox">
+                    <label>
+                        <input id="timerSel" type="checkbox" value="">
+                        Yes
+                    </label>
+                </div>
+            </div>
+            <div class="form-group" id="playerOptions">
                 <label class="control-label" for="users">Number of Players:</label>
                 <select class="form-control" id="users">
                     <option>Select Number of Players</option>
