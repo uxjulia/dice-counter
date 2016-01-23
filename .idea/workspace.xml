@@ -4,16 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f8e8a1-38c8-4770-a54e-f4c962d7b726" name="add 'save' button to settings" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="f9f8e8a1-38c8-4770-a54e-f4c962d7b726" name="add 'save' button to settings" comment="Added 'save' button to settings">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/settings.html" afterPath="$PROJECT_DIR$/app/_includes/settings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/about/index.html" afterPath="$PROJECT_DIR$/app/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/assets/js/app.js" afterPath="$PROJECT_DIR$/app/_site/assets/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/feed.xml" afterPath="$PROJECT_DIR$/app/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_site/index.html" afterPath="$PROJECT_DIR$/app/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/js/app.js" afterPath="$PROJECT_DIR$/app/assets/js/app.js" />
     </list>
     <ignored path="dice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +31,7 @@
           <file leaf-file-name="settings.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/_includes/settings.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.59736454">
+                <state vertical-scroll-proportion="0.6191199">
                   <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
                   <folding />
                 </state>
@@ -95,8 +87,8 @@
           <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.574048">
-                  <caret line="141" column="39" selection-start-line="141" selection-start-column="39" selection-end-line="141" selection-end-column="39" />
+                <state vertical-scroll-proportion="0.7182482">
+                  <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -280,6 +272,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="start.from.branch" value="master" />
     <property name="tasks.open.task.update.state.enabled" value="false" />
+    <property name="tasks.close.task.update.state.enabled" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -496,7 +489,13 @@
       <option name="project" value="LOCAL" />
       <updated>1453586942104</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Added 'save' button to settings">
+      <created>1453587769038</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1453587769038</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <option name="clearContext" value="false" />
     <servers>
       <Trello shared="false">
@@ -513,7 +512,9 @@
         <password>dfc8dfc9df9bdf9bdf9cdf92df93df9ddf9cdf9adf9ddfcfdf93dfcbdf93df9adf9bdfccdfcedf9cdfcedfcbdfc8df9edf93dfcbdf9fdf9cdf9bdf9bdf9ddf9bdfc9dfcbdf92df99df99dfcfdf92df9edfcbdf9adf9cdf93dfcfdfcedf93df9edf9ddf99dfcfdfc9dfcedfcbdfccdfccdf9bdfccdf9cdf92dfcbdf9adf9fdfcc</password>
         <option name="includeAllCards" value="true" />
         <option name="loginAnonymously" value="false" />
-        <option name="preferredCloseTaskState" />
+        <option name="preferredCloseTaskState">
+          <CustomTaskState id="56828948de8e7584dd7141d9" predefined="false" name="Done" />
+        </option>
         <option name="preferredOpenTaskState" />
         <option name="shouldFormatCommitMessage" value="false" />
         <option name="url" value="https://api.trello.com" />
@@ -539,10 +540,10 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13928571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925683" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30667922" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925683" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -615,7 +616,8 @@
     <MESSAGE value="minor text changes" />
     <MESSAGE value="edits to custom player name inputs" />
     <MESSAGE value="add function for timer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add function for timer" />
+    <MESSAGE value="Added 'save' button to settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 'save' button to settings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -983,7 +985,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/_includes/settings.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59736454">
+        <state vertical-scroll-proportion="0.6191199">
           <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
           <folding />
         </state>
@@ -991,8 +993,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.574048">
-          <caret line="141" column="39" selection-start-line="141" selection-start-column="39" selection-end-line="141" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.7182482">
+          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
           <folding />
         </state>
       </provider>
