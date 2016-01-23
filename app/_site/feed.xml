@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dice Roll Counter</title>
+    <title>Roll Counter</title>
     <description>Track and graph die rolls.
 </description>
     <link>http://dice.jvlia.co/</link>
     <atom:link href="http://dice.jvlia.co/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Jan 2016 00:05:43 -0500</pubDate>
-    <lastBuildDate>Sun, 03 Jan 2016 00:05:43 -0500</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <pubDate>Sat, 23 Jan 2016 17:21:44 -0500</pubDate>
+    <lastBuildDate>Sat, 23 Jan 2016 17:21:44 -0500</lastBuildDate>
+    <generator>Jekyll v3.0.2</generator>
     
   </channel>
 </rss>
