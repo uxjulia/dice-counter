@@ -1,4 +1,5 @@
-.sass-cache/
-.idea/
-tether-1.1.1
-Chart.js
+app/.sass-cache/
+app/.idea/
+tether-1.1.1/
+Chart.js/
+jquery.hotkeys/
