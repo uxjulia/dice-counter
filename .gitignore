@@ -1,5 +1,7 @@
-app/.sass-cache/
-app/.idea/
+.sass-cache/
+.idea/
+_site/
 tether-1.1.1/
 Chart.js/
 jquery.hotkeys/
+bootstrap-material-design/
